@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/static/images/bg1.png'); /* Replace 'background.jpg' with your image file name */
+    background-size: contain; /* Adjust the size of the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: left; /* Center the background image */
+    background-color: rgba(55, 45, 25, 0.5); /* Adjust the transparency of the background color */
+
+
+}
+
+.container {
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency to the container */
+    padding: 20px;
+    border-radius: 10px;
+     margin-left: 40%;
+     margin-top: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.logo {
+     display: block;
+    margin: 0 auto 20px; 
+}
+
+
+canvas {
+    border: 1px solid #000;
+    cursor: crosshair;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+  <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" class="logo">

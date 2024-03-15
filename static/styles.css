@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/static/images/bg8.png'); /* Replace 'background.jpg' with your image file name */
+    background-size: contain; /* Adjust the size of the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: left; /* Center the background image */
+    background-color: rgba(195, 193, 184, 1); /* Adjust the transparency of the background color */
+}
+.logo {
+    width: 500px; /* Increase the width of the logo */
+    height: 500px; /* Let the height adjust automatically to maintain aspect ratio */
+    margin-top: 10px; /* Add margin from the top */
+     transform: scale(1.05);
+}
+
+
+.container {
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency to the container */
+    padding: 20px;
+    border-radius: 10px;
+     margin-left: 40%;
+     margin-top: 20px;
+}
+
+
+.logo {
+    width: 200px; /* Adjust the width of the logo */
+    height: auto;
+     top: 0;
+    left: 50%;/* Maintain aspect ratio */
+}
+
+canvas {
+    border: 1px solid #000;
+    cursor: crosshair;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto; /* Center canvas horizontally */
+    display: block;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
